@@ -1,0 +1,102 @@
+.encoder-menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 20px;
+    gap: 50px;
+  
+}
+.encoder-menu>a{
+    text-decoration: none;
+    font-size: min(4vw,30px);
+
+}
+.encoder-text
+{
+    font-size:min(4vw,30px) ;
+    text-align: center;
+}
+.encoder-main
+{
+    display: flex;
+    flex-direction: row;
+    gap:5vw;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.encoder-input textarea,.encoder-output>div
+{
+    width:min(400px,95vw);
+    outline:none;
+    border: none;
+    height:300px;
+    margin-left: 5px;
+
+    
+}
+.encoder-input,.encoder-output
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: first baseline;
+    outline: 3px solid black;
+    box-sizing: border-box; 
+    border-radius: 20px;
+
+}
+.encoder-output>pre,.encoder-output>pre
+{
+    font-size: 18px;
+}
+.c-red
+{
+    color:red;
+}
+.c-blue
+{
+    color:blue;
+}
+.c-green
+{
+    color:green;
+}
+.c-pink
+{
+    color:blueviolet;
+}
+.c-orange
+{
+    color:rgb(247, 103, 0);
+}
+.c-brown
+{
+    color:brown;
+}
+.c-gray
+{
+    color:rgb(0, 0, 0);
+}
+#between
+{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.encoder-table
+{
+    align-items: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
