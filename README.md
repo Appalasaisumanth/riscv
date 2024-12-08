@@ -2,7 +2,10 @@
 created with react and connected to cpp backend through web assembly
 can run assembly code in pipelined cpu 
 
-deployment link: 
+deployment link: https://riscv-ten.vercel.app/
+
+
+
 to run locally u have to download emsciptem,python,node,git
 and complie emscriptem and run through any port
 
